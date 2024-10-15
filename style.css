@@ -1,0 +1,585 @@
+
+    
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+body{
+    border: 1px dotted blue;
+}
+/* this nav section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #000000;
+}
+.logo {
+    width: 0 auto;
+    height: 38.64pxpx;
+    margin: 44px 22px 33px;
+    border: 1px solid brow;
+
+}
+
+.nav-links a {
+    padding: 8px 20px; 
+}
+.nav-links a {
+    border: none;
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-links a:hover{
+   color: blue;
+}
+
+.nav-button {
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-button .login {
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+    padding: 5px 12px;
+    border-radius: 30px;
+    background-color: #F1F1F1;
+    margin-right: 20px;
+    transform: translate(20px,-3px);
+    cursor: pointer;
+}
+
+.nav-button .login:hover {
+    background-color: #000000;
+   color: blue;
+}
+
+.nav-button .get {
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #F1F1F1;
+    transform: translate(15px,-5px);
+    cursor: pointer;
+
+}
+.nav-button .get:hover{
+    color: blue;
+}
+
+.icon {
+    width: 36px;
+    height: auto;
+   margin: 13px;
+}
+.icon img{
+    width: 30px;
+    transform: translate(3px, 4px);
+}
+
+
+ /*this is hero section */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.find-offer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 800px;
+    border: 1px solid black;
+}
+.find-offer h2{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.cpt-option{
+    padding: 10px;
+    margin: 0 auto;
+}
+#cripto{
+   padding: 8px;
+    background-color: #ECECEC;
+    margin: 9px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+#input-cripto{
+    width: 360px;
+    padding: 8px;
+    background-color: #ECECEC;
+    margin: 9px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+#input-cripto:hover{
+    color: #000000;
+   
+}
+.find-offer-button{
+    padding: 6px 17px;
+    background-color: #00EBC7;
+    border: none;
+    border-radius: 20px;
+    font-size: 22px;
+    margin: 5px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+.find-offer-button:hover{
+   background-color: rgb(55, 55, 185);
+}
+.why-zapper-btn{
+    position: absolute;
+    top:150%;
+    left: 40%;
+    margin:0 auto;
+    padding: 8px 25px;
+    background: none;
+    color: white;
+    text-decoration: underline;
+    font-size: 22px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.why-zapper-btn:hover{
+    border: 1px solid black;
+    color: blue;
+}
+
+/* This is feature section */
+
+.feature-section{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #FDE24F;
+}
+
+.feature-section h3{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.feature-section img{
+    width: 100%;
+    padding: 40px;
+}
+
+/* This is feature highlight section */
+
+.feature-highlight{
+    width: 100%;
+    text-align: center;
+     padding: 20px 40px;
+}
+.feature-highlight h2{
+    text-align: left;
+    font-size: 34px;
+    margin: 30px 0px 50px;
+}
+.feature-highlight h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.feature-logo{
+    width:70px ;
+    height: 70px;
+}
+.feature-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 50px;
+
+}
+.feature-box{
+    width: 550vw;
+    height: 350px;
+    padding: 20px;
+    text-align: center;  
+}
+.feature-box p{
+    font-size: 20px;
+    margin-bottom:30px ;
+}
+.feature-link{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+}
+.feature-link:hover{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;;
+    color:#00EBC7;
+}
+.full-feature-button{
+    width: 200px;
+    font-size: 22px;
+    margin-top: 50px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px;
+}
+.full-feature-button:hover{
+    font-size: 22px;
+    background: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+}
+
+/* This is buy-sell section */
+
+.buy-sell-container{
+    width: 100%;
+    height: auto;
+    background-color: #F8F8F8;
+}
+.buy-sell-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.buy-section, .sell-section{
+  width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buy-section{
+    border-right: 1px solid black;
+}
+.offer{
+    width: 100%;
+   display: flex;
+   width: auto;
+   margin: 20px;
+   border: 1px solid black;
+   padding: 20px;
+   border-radius: 20px;
+   margin: 15px 30px;
+   text-align: center;
+}
+.offer-image{
+    width: 64px;
+    height: 64px;
+}
+.details{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding-top: 20px ;
+    margin-left:10px ;
+}
+.details p{
+    padding: 0px 20px;
+    font-size: 20PX;
+    font-weight: 500;
+}
+h4{
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 28px;
+}
+.view-offer-btn{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    margin:20px 0px 60px;
+    cursor: pointer;
+}
+.view-offer-btn:hover{
+    background-color: #CFBAFF;
+}
+
+/* This is signup section */
+
+.signup{
+    width: 100%;
+    background-color: #CFBAFF;
+    text-align: center;
+}
+
+.signup-details{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 60px;
+    
+}
+.signup-btn{
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+}
+.signup-btn:hover{
+    background-color: #CFBAFF;
+}
+/* This is footer section */
+footer{
+    background-color: #000000;
+}
+.footer{
+    background-color: #000000;
+    border: 1px solid black;
+    display: flex;
+}
+.column{
+    width: 500px;
+     margin:70px 40px;
+}
+.column h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.column ul{
+  padding-top:20px;
+}
+.column ul li{
+    padding:5px;
+    text-decoration: none;
+  }
+  .column ul li a{
+    color:white;
+    text-align: left;
+    text-decoration: none;
+  }
+  .column ul li a:hover{
+    color: rgb(45, 45, 202);
+  }
+  .footer-note{
+    color: white;
+    text-align: center;
+    margin:20px;
+    padding: 30px 30px 60px;
+  }
+
+
+
+
+
+  /* Mobile Styles */
+@media screen and (max-width: 568px) {
+    *{
+        box-sizing: border-box;
+    }
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        height: 180px;
+        padding: 10px;
+    }
+
+    .logo {
+        margin: 10px auto;
+    }
+
+    .nav-links {
+        display: flex;
+        text-align: center;
+        width: 70%;
+       
+    }
+
+    .nav-links a {
+        padding: 10px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .nav-button {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+
+    .nav-button .login {
+        font-size: 16px;
+        height: fit-content;
+        padding: 10px 15px ;
+        border-radius: 30px;
+    }
+    .nav-button .get{
+        font-size: 14px;
+        height: fit-content;
+        padding: 10px 15px ;
+        border-radius: 30px;
+    }
+
+    .icon {
+        width: 30px;
+        margin: 15px;
+        transform: translate(0px,-20px);
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 550px;
+    }
+    .hero img{
+        width: 100%;
+    }
+
+    .find-offer {
+        width: 90%;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .find-offer h2 {
+        font-size: 24px;
+    }
+    #input-cripto{
+        width: auto;
+    }
+    .why-zapper-btn{
+        position: absolute;
+        top: 112%;
+        left: 25%;
+         margin-bottom: 20px;
+    }
+
+    /* Feature Section */
+    .feature-section h3 {
+        font-size: 20px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .feature-box {
+        width: 90vw;
+        height: auto;
+    }
+    .feature-box p{
+    padding: 0px 30px;
+    }
+
+
+    .full-feature-button {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    /* Buy-Sell Section */
+    .buy-sell-section {
+        flex-direction: column;
+    }
+
+    .buy-section, .sell-section {
+        width: 100%;
+        border: none;
+    }
+
+    .offer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Signup Section */
+    .signup-details {
+        font-size: 34px;
+    }
+
+    .signup-btn {
+        width: 50%;
+        font-size: 20px;
+    }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.column {
+    width: 90%;
+    margin: 20px 0;
+}
+
+.column h3 {
+    font-size: 20px;
+}
+
+.footer-note {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+}
